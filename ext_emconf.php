@@ -35,6 +35,13 @@ $EM_CONF[$_EXTKEY] = array (
     array (
     ),
   ),
+  'autoload' =>
+  array (
+    'psr-4' =>
+    array (
+      'IchHabRecht\\Databaseconnectionscanner\\' => 'Classes/',
+    ),
+  ),
   '_md5_values_when_last_written' => 'a:1:{s:12:"ext_icon.png";s:4:"c236";}',
 );
 

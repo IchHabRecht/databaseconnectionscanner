@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2016-09-01T01:10:58Z" product-name="databaseconnectionscanner">
+		<header />
+		<body>
+			<trans-unit id="report_title">
+				<target>DatabaseConnection Scanner</target>
+			</trans-unit>
+			<trans-unit id="report_description">
+				<target>Zeigt eine Liste aller Extensions an, die noch immer die alte DatabaseConnection API nutzen.</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
