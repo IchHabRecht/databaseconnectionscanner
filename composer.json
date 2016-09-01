@@ -1,0 +1,32 @@
+{
+  "name": "ichhabrecht/databaseconnectionscanner",
+  "type": "typo3-cms-extension",
+  "description": "Find usages of DatabaseConnection class",
+  "keywords": [
+    "TYPO3",
+    "DatabaseConnection",
+    "Deprecation",
+    "Legacy"
+  ],
+  "homepage": "https://github.com/IchHabRecht/TYPO3-databaseconnectionscanner",
+  "authors": [
+    {
+      "name": "Nicole Cordes",
+      "email": "typo3@cordes.co",
+      "role": "Developer"
+    }
+  ],
+  "license": "GPL-2.0+",
+  "require": {
+    "typo3/cms": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "IchHabRecht\\Databaseconnectionscanner\\": "Classes/"
+    }
+  },
+  "replace": {
+    "databaseconnectionscanner": "self.version",
+    "typo3-ter/databaseconnectionscanner": "self.version"
+  }
+}
