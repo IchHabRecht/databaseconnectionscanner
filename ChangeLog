@@ -1,0 +1,6 @@
+2016-09-01         [RELEASE] Release of databaseconnectionscanner 0.1.0 (Nicole Cordes)
+2016-09-01 74973c8 [TASK] Add composer.json (Nicole Cordes)
+2016-09-01 9b51ac0 [FEATURE] Add extension and file list (Nicole Cordes)
+2016-09-01 314be47 [FEATURE] Add basic report skeleton (Nicole Cordes)
+2016-08-31 39fc8bf [TASK] Add basic extension information (Nicole Cordes)
+2016-08-31 30dc46d Initial commit (Nicole Cordes)
