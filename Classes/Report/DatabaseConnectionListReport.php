@@ -94,9 +94,9 @@ class DatabaseConnectionListReport implements ReportInterface
                 return strcmp($a->getPackageKey(), $b->getPackageKey());
             } elseif ($isASysExt) {
                 return -1;
-            } else {
-                return 1;
             }
+
+            return 1;
         });
 
         return $packages;
