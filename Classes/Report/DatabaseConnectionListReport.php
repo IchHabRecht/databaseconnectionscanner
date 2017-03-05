@@ -48,6 +48,10 @@ class DatabaseConnectionListReport implements ReportInterface
         $content = '';
         /** @var Package $package */
         foreach ($packages as $package) {
+            if ($package->getPackageKey() === 'databaseconnectionscanner') {
+                continue;
+            }
+
             $packagePath = rtrim($package->getPackagePath(), '/');
             $finder = new Finder();
             $finder
